@@ -7,3 +7,4 @@ tasks:
   - command: |
       source ~/.bashrc
       julia -v
+      julia -e "import Pkg;Pkg.instantiate() "
