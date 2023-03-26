@@ -80,11 +80,35 @@ end
 # ╔═╡ 0311d786-2403-404f-ab29-2c32450ce6b6
 md"### Exponents"
 
-# ╔═╡ 76550641-5b09-4407-a8b1-da0624210cf4
-readdir()
-
 # ╔═╡ f8f35d9a-b111-4a7c-994b-d32b8459b19d
-y(1,2)
+2^5
+
+# ╔═╡ 62e86f24-bbd7-4062-abd7-05d946ad5dcc
+md"### Logarithms
+A logarithm is a math function that finds a power for a specific number
+and base. "
+
+# ╔═╡ d76c16dc-b7c1-4a44-a40e-d10eae8a9600
+log(2,8)
+
+# ╔═╡ a18fbc63-e6ca-4484-9385-a0b53ef992c9
+md"
+#### Some Interesting Properties of Exponent and Logarithms
+| Operator | Exponenet Property | Logarithm Property |
+|----------|--------------------|--------------------|
+| Multiplication    | $x^m * x^n = x^{m+n}$              | $log(a × b) = log(a) + log(b)$                   |
+| Division | $\frac{x^m}{x^n} = x^{m-n}$ | $log(\frac{a}{b}) =  log(a) − log(b)$ |
+| Exponentiation | $(x^m)^n = x^{mn}$ | $log(a^n) =  n × log (a)$ |
+| Zero Exponent | $x^0=1$ | log(1) = 0 |
+| Inverse |  $x^{-1} = \frac{1}{x}$       | $log(x^{-1}) =log(\frac{1}{x})=-log(x)$  |
+"
+
+
+# ╔═╡ 4452e6ed-bece-41ca-bb35-01acc9c6b679
+md"### Euler’s Number and Natural Logarithms"
+
+# ╔═╡ aa2f5b8a-e363-4a34-9d01-1d20482c58be
+
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
@@ -101,7 +125,7 @@ PLUTO_MANIFEST_TOML_CONTENTS = """
 
 julia_version = "1.8.1"
 manifest_format = "2.0"
-project_hash = "cfabcdca197fa873ad3e7adab4c0b7cbd4b76ac7"
+project_hash = "a8de94c923043c9dd98070ec4bfb129f391d4191"
 
 [[deps.AbstractFFTs]]
 deps = ["ChainRulesCore", "LinearAlgebra"]
@@ -1371,7 +1395,11 @@ version = "3.5.0+0"
 # ╟─b9e1d42c-cc61-4a49-8180-c00045a1ef9c
 # ╠═bf0b98d5-e87c-4487-b6f6-4f29f4efae94
 # ╟─0311d786-2403-404f-ab29-2c32450ce6b6
-# ╠═76550641-5b09-4407-a8b1-da0624210cf4
 # ╠═f8f35d9a-b111-4a7c-994b-d32b8459b19d
+# ╟─62e86f24-bbd7-4062-abd7-05d946ad5dcc
+# ╠═d76c16dc-b7c1-4a44-a40e-d10eae8a9600
+# ╟─a18fbc63-e6ca-4484-9385-a0b53ef992c9
+# ╟─4452e6ed-bece-41ca-bb35-01acc9c6b679
+# ╠═aa2f5b8a-e363-4a34-9d01-1d20482c58be
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
