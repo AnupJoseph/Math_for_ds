@@ -6,7 +6,6 @@ using InteractiveUtils
 
 # ╔═╡ b73a988f-abf3-41b7-bb7a-386ed4914065
 begin
-
     using CairoMakie
 end
 
@@ -108,7 +107,22 @@ md"
 md"### Euler’s Number and Natural Logarithms"
 
 # ╔═╡ aa2f5b8a-e363-4a34-9d01-1d20482c58be
+begin
+	p = 100
+	r = 0.2
+	t = 2
+	n = 12
+	
+	a = p*(1+(r/n))^(n*t)
+end
 
+# ╔═╡ 7ea90377-bba5-4bde-896f-adb533480712
+begin
+	p_1 =100
+	r_1 = .2
+	t_1 = 2
+	a_1 = p_1*ℯ^(r_1*t_1)
+end
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
@@ -1401,5 +1415,6 @@ version = "3.5.0+0"
 # ╟─a18fbc63-e6ca-4484-9385-a0b53ef992c9
 # ╟─4452e6ed-bece-41ca-bb35-01acc9c6b679
 # ╠═aa2f5b8a-e363-4a34-9d01-1d20482c58be
+# ╠═7ea90377-bba5-4bde-896f-adb533480712
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
